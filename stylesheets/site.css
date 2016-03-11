@@ -1,0 +1,97 @@
+/* line 1, base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 8, base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 11, base/_lists.scss */
+  dl dt {
+    font-weight: 600;
+    margin-top: 0.75em; }
+  /* line 16, base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, base/_tables.scss */
+th {
+  border-bottom: 1px solid #a6a6a6;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0; }
+
+/* line 20, base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, base/_typography.scss */
+body {
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 8, base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 20, base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 24, base/_typography.scss */
+a {
+  color: #1565c0;
+  text-decoration: none;
+  transition: color 150ms ease; }
+  /* line 29, base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #104c90; }
+
+/* line 36, base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
+/* line 44, base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* Bitters needs to be imported before Neat */
+/* line 4, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
