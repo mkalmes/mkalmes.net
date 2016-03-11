@@ -3,3 +3,9 @@
 @import "bourbon";
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
+
+section {
+    @include outer-container;
+    aside { @include span-columns(6); }
+    article { @include span-columns(6); }
+}
