@@ -11,7 +11,10 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <section class="description">
+      <%= yield %>
+    </section>
+    <%= partial "partials/section.prefooter" %>
     <%= partial "partials/footer" %>
   </body>
 
