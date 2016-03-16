@@ -66,14 +66,34 @@ p {
 
 /* line 24, base/_typography.scss */
 a {
-  color: #1565c0;
+  color: #ff8b38;
   text-decoration: none;
   transition: color 150ms ease; }
   /* line 29, base/_typography.scss */
   a:active, a:focus, a:hover {
-    color: #104c90; }
+    color: #bf682a; }
 
 /* line 36, base/_typography.scss */
+header {
+  color: #fff; }
+  /* line 38, base/_typography.scss */
+  header a {
+    color: #fff; }
+    /* line 40, base/_typography.scss */
+    header a:active, header a:focus, header a:hover {
+      color: #bfbfbf; }
+
+/* line 48, base/_typography.scss */
+footer {
+  color: #fff; }
+  /* line 50, base/_typography.scss */
+  footer a {
+    color: #fff; }
+    /* line 52, base/_typography.scss */
+    footer a:active, footer a:focus, footer a:hover {
+      color: #bfbfbf; }
+
+/* line 60, base/_typography.scss */
 hr {
   border-bottom: 1px solid #ddd;
   border-left: 0;
@@ -81,7 +101,7 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-/* line 44, base/_typography.scss */
+/* line 68, base/_typography.scss */
 img,
 picture {
   margin: 0;
@@ -97,16 +117,39 @@ html {
   box-sizing: inherit; }
 
 /* line 7, site.css.scss */
-section {
-  max-width: 1200px;
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, site.css.scss */
+body {
+  background-color: #1c1513; }
+
+/* line 16, site.css.scss */
+header {
+  max-width: 90%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  text-align: center; }
+  /* line 20, ../../../../gemrepo/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* line 21, site.css.scss */
+section {
+  background-color: #fff;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5em 0em; }
   /* line 20, ../../../../gemrepo/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
   section::after {
     clear: both;
     content: "";
     display: table; }
-  /* line 9, site.css.scss */
+  /* line 25, site.css.scss */
   section aside {
     float: left;
     display: block;
@@ -115,7 +158,17 @@ section {
     /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
     section aside:last-child {
       margin-right: 0; }
-  /* line 10, site.css.scss */
+    @media screen and (max-width: 500px) {
+      /* line 25, site.css.scss */
+      section aside {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
+        section aside:last-child {
+          margin-right: 0; } }
+  /* line 31, site.css.scss */
   section article {
     float: left;
     display: block;
@@ -124,14 +177,30 @@ section {
     /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
     section article:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 500px) {
+      /* line 31, site.css.scss */
+      section article {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
+        section article:last-child {
+          margin-right: 0; } }
 
-/* line 13, site.css.scss */
+/* line 39, site.css.scss */
 footer {
-  max-width: 1200px;
+  max-width: 90%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 5em 0em;
+  text-align: center; }
   /* line 20, ../../../../gemrepo/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
   footer::after {
     clear: both;
     content: "";
     display: table; }
+
+/* line 45, site.css.scss */
+#site {
+  background: #fff; }
