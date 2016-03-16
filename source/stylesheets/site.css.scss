@@ -4,12 +4,16 @@
 @import "base/base";   /* Bitters needs to be imported before Neat */
 @import "neat";
 
+header {
+    @include outer-container(90%);
+}
+
 section {
-    @include outer-container;
+    @include outer-container(90%);
     aside { @include span-columns(6); }
     article { @include span-columns(6); }
 }
 
 footer {
-    @include outer-container;
+    @include outer-container(90%);
 }
