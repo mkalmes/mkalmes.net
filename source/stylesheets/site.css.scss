@@ -6,6 +6,7 @@
 
 header {
     @include outer-container(90%);
+    background-color: $dark-brown;
 }
 
 section {
@@ -26,4 +27,5 @@ section {
 
 footer {
     @include outer-container(90%);
+    background-color: $dark-brown;
 }
