@@ -33,6 +33,30 @@ a {
   }
 }
 
+header {
+    color: $white;
+    a {
+        color: $white;
+        &:active,
+        &:focus,
+        &:hover {
+            color: shade($white, 25%);
+        }
+    }
+}
+
+footer {
+    color: $white;
+    a {
+        color: $white;
+        &:active,
+        &:focus,
+        &:hover {
+            color: shade($white, 25%);
+        }
+    }
+}
+
 hr {
   border-bottom: $base-border;
   border-left: 0;
