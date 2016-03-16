@@ -11,11 +11,13 @@
   </head>
 
   <body class="<%= page_classes %>">
-	  <%= partial "partials/header" %>
-    <section class="description">
-      <%= yield %>
-    </section>
-    <%= partial "partials/section.prefooter" %>
+    <%= partial "partials/header" %>
+    <div id="site">
+      <section class="description">
+         <%= yield %>
+      </section>
+      <%= partial "partials/section.prefooter" %>
+    </div>
     <%= partial "partials/footer" %>
   </body>
 
