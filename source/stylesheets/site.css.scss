@@ -21,6 +21,7 @@ header {
 section {
     background-color: $secondary-background-color;
     @include outer-container(90%);
+    @include pad(2.5em 0em);
     aside {
         @include span-columns(6);
         @include media($mobile) {
@@ -37,6 +38,7 @@ section {
 
 footer {
     @include outer-container(90%);
+    @include pad(5em 0em);
     text-align: center;
 }
 
