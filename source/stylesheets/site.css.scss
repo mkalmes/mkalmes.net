@@ -18,7 +18,7 @@ header {
     text-align: center;
 }
 
-section {
+.description {
     background-color: $secondary-background-color;
     @include outer-container(90%);
     @include pad(2.5em 0em);
@@ -33,6 +33,14 @@ section {
         @include media($mobile) {
             @include span-columns(4);
         }
+    }
+}
+
+.prefooter {
+    @include outer-container(50%);
+    li {
+        @include span-columns(2);
+        text-align: center;
     }
 }
 
