@@ -95,3 +95,43 @@ html {
 /* line 9, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *::after, *::before {
   box-sizing: inherit; }
+
+/* line 7, site.css.scss */
+section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, ../../../../gemrepo/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
+  section::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 9, site.css.scss */
+  section aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
+    section aside:last-child {
+      margin-right: 0; }
+  /* line 10, site.css.scss */
+  section article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    /* line 89, ../../../../gemrepo/gems/neat-1.7.4/app/assets/stylesheets/grid/_span-columns.scss */
+    section article:last-child {
+      margin-right: 0; }
+
+/* line 13, site.css.scss */
+footer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, ../../../../gemrepo/gems/bourbon-4.2.6/app/assets/stylesheets/addons/_clearfix.scss */
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
