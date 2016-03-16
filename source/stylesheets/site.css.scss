@@ -10,8 +10,18 @@ header {
 
 section {
     @include outer-container(90%);
-    aside { @include span-columns(6); }
-    article { @include span-columns(6); }
+    aside {
+        @include span-columns(6);
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
+    article {
+        @include span-columns(6);
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+    }
 }
 
 footer {
