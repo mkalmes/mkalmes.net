@@ -15,6 +15,7 @@ body {
 
 header {
     @include outer-container(90%);
+    @include pad(1em 0em 0em 0em);
     text-align: center;
 }
 
