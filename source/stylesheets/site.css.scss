@@ -11,6 +11,15 @@ html,body{
 
 body {
     background-color: $base-background-color;
+
+    #site {
+        background-color: $secondary-background-color;
+        padding: 50px 34px 0px 34px;
+    }
+
+    #footer {
+        background-color: $medium-brown;
+    }
 }
 
 header {
@@ -19,33 +28,40 @@ header {
     text-align: center;
 }
 
-section { @include outer-container; }
+section {
+    @include outer-container;
 
-.description {
-    background-color: $secondary-background-color;
-    aside {
-        @include span-columns(6);
-        @include media($mobile) {
-            @include span-columns(4);
+    &.description {
+        background-color: $secondary-background-color;
+
+        aside {
+            @include span-columns(6);
+
+            @include media($mobile) {
+                @include span-columns(4);
+            }
+        }
+
+        article {
+            @include span-columns(6);
+            @include media($mobile) {
+                @include span-columns(4);
+            }
         }
     }
-    article {
-        @include span-columns(6);
-        @include media($mobile) {
-            @include span-columns(4);
-        }
-    }
-}
 
-.prefooter {
-    @include pad(2.5em 0em);
-    li {
-        @include span-columns(2);
-        text-align: center;
-        @include media($mobile) {
-            @include pad(1em 0em);
-            @include shift(5);
-            @include omega(1n);
+    &.prefooter {
+        @include pad(2.5em 0em);
+
+        li {
+            @include span-columns(2);
+            text-align: center;
+
+            @include media($mobile) {
+                @include pad(1em 0em);
+                @include shift(5);
+                @include omega(1n);
+            }
         }
     }
 }
@@ -55,13 +71,4 @@ footer {
     @include pad(5em 0em);
     background-color: $medium-brown;
     text-align: center;
-}
-
-#site {
-    background: $secondary-background-color;
-    padding: 50px 34px 0px 34px;
-}
-
-#footer {
-    background: $medium-brown;
 }
