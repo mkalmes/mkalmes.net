@@ -49,9 +49,14 @@ header {
 footer {
     @include outer-container(90%);
     @include pad(5em 0em);
+    background-color: $medium-brown;
     text-align: center;
 }
 
 #site {
     background: $secondary-background-color;
+}
+
+#footer {
+    background: $medium-brown;
 }
