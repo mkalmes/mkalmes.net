@@ -89,6 +89,8 @@ header {
     }
 }
 
+.description { h2 { font-size: $base-font-size * 2.5; } }
+
 footer {
     color: $white;
     a {
