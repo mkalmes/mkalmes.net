@@ -39,6 +39,7 @@ header {
 
 .prefooter {
     @include outer-container(50%);
+    @include pad(2.5em 0em);
     li {
         @include span-columns(2);
         text-align: center;
