@@ -23,7 +23,6 @@ section { @include outer-container; }
 
 .description {
     background-color: $secondary-background-color;
-    @include pad(2.5em 0em);
     aside {
         @include span-columns(6);
         @include media($mobile) {
@@ -60,6 +59,7 @@ footer {
 
 #site {
     background: $secondary-background-color;
+    padding: 50px 34px 0px 34px;
 }
 
 #footer {
