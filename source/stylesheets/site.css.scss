@@ -19,9 +19,10 @@ header {
     text-align: center;
 }
 
+section { @include outer-container; }
+
 .description {
     background-color: $secondary-background-color;
-    @include outer-container(90%);
     @include pad(2.5em 0em);
     aside {
         @include span-columns(6);
@@ -38,16 +39,20 @@ header {
 }
 
 .prefooter {
-    @include outer-container(50%);
     @include pad(2.5em 0em);
     li {
         @include span-columns(2);
         text-align: center;
+        @include media($mobile) {
+            @include pad(1em 0em);
+            @include shift(5);
+            @include omega(1n);
+        }
     }
 }
 
 footer {
-    @include outer-container(90%);
+    @include outer-container;
     @include pad(5em 0em);
     background-color: $medium-brown;
     text-align: center;
