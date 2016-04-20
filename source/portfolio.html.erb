@@ -1,0 +1,8 @@
+---
+title: Marc Kalmes – Portfolio
+---
+<section class="portfolio">
+  <% data.portfolio.each do |portfolio| %>
+    <%= partial "partials/portfolio", locals: { portfolio: portfolio } %>
+  <% end %>
+</section>

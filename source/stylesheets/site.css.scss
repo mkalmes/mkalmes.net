@@ -37,26 +37,50 @@ nav {
 }
 
 section {
-    @include outer-container;
+  @include outer-container;
 
-    &.description {
-        background-color: $secondary-background-color;
+  &.description {
+    background-color: $secondary-background-color;
 
-        aside {
-            @include span-columns(6);
-
-            @include media($mobile) {
-                @include span-columns(4);
-            }
-        }
-
-        article {
-            @include span-columns(6);
-            @include media($mobile) {
-                @include span-columns(4);
-            }
-        }
+    aside {
+      @include span-columns(6);
+      @include media($mobile) {
+        @include span-columns(4);
+      }
     }
+
+    article {
+      @include span-columns(6);
+      @include media($mobile) {
+        @include span-columns(4);
+      }
+    }
+  }
+
+  &.portfolio {
+    article {
+      @include span-columns(12);
+      @include pad(2.5em 0em);
+
+      h2 { font-size: 2em; }
+
+      #portfolio {
+        @include span-columns(6);
+        @include media($mobile) {
+          @include span-columns(4);
+        }
+      }
+
+      #portfolio-image {
+        @include span-columns(6);
+        @include media($mobile) {
+          @include span-columns(4);
+        }
+      }
+    }
+
+    li { list-style-type: disc; }
+}
 
     &.prefooter {
         @include pad(2.5em 0em);

@@ -1,0 +1,14 @@
+<article>
+  <h2><%= link_to portfolio["company"], portfolio["company_url"] %> – <%= link_to portfolio["app"], portfolio["app_url"] %></h2>
+  <div id="portfolio">
+    <strong><%= portfolio["description"] %></strong>
+    <ul>
+    <% portfolio["keywords"].each do |keyword| %>
+      <li><%= keyword %></li>
+    <% end %>
+  </div>
+  <div id="portfolio-image">
+    <%= image_tag(portfolio["img_url"], alt: "Screenshot von " + portfolio["app"]) %>
+  </div>
+</ul>
+</article>
