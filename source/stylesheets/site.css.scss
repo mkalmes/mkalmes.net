@@ -28,6 +28,14 @@ header {
     text-align: center;
 }
 
+nav {
+    @include pad(1em 0em 0em 0em);
+    text-align: center;
+
+    li { display: inline; }
+    li a { padding: 16px 16px; }
+}
+
 section {
     @include outer-container;
 
