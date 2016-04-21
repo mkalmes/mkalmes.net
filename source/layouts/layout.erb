@@ -10,12 +10,10 @@
     <%= stylesheet_link_tag :site %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body>
     <%= partial "partials/header" %>
     <div id="site">
-      <section class="description">
-         <%= yield %>
-      </section>
+      <%= yield %>
       <%= partial "partials/section.prefooter" %>
     </div>
     <div id="footer">
