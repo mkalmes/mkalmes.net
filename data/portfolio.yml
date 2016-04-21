@@ -1,0 +1,35 @@
+- company: TheAmazeApp GmbH
+  company_url: https://theamazeapp.com
+  app: AMAZE
+  app_url: https://itunes.apple.com/de/app/amaze-fashion-shopping-partner/id997276436?l=en&mt=8
+  img_url: /images/portfolio/amaze.jpg
+  description: iPhone App für Fashion Trends, Style und Mobile Commerce.
+  keywords:
+  - Entwicklung
+  - Objective-C
+  - REST
+  
+- company: Trusted Shops GmbH
+  company_url: http://www.trustedshops.eu
+  app: Trustbadge SDK
+  app_url: https://github.com/trustedshops/trustedshops-ios-sdk
+  img_url: /images/portfolio/trustbadge.jpg
+  description: Library zur Anzeige der Shopbewertung und Anzahl der Kundenbewertungen.
+  keywords:
+  - Konzeption
+  - Entwicklung
+  - CocoaPods
+  - Objective-C
+  - REST
+
+- company: Trusted Shops GmbH
+  company_url: http://www.trustedshops.eu
+  app: My Trusted Shops
+  app_url: https://github.com/trustedshops/trustedshops-ios-sdk
+  img_url: /images/portfolio/myts-app.jpg
+  description: iPhone App zur Verwaltung von Trusted Shop Kundenbewertungen.
+  keywords:
+  - Konzeption
+  - Entwicklung
+  - Objective-C
+  - REST
