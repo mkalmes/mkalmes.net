@@ -6,6 +6,6 @@ Meine Stimme kann man jede Woche in meinem Podcast [Für's Protokoll][podcast] h
 
 Ich lebe gemeinsam mit meiner Frau in Köln. Von hier arbeite ich an Projekten.
 
-Wenn Sie mit mir Kontakt aufnehmen möchten, schreiben Sie an **mkalmes at mkalmes dot net** Ich freue mich auf Ihre Mail.
+Wenn Sie mit mir Kontakt aufnehmen möchten, schreiben Sie an **[mkalmes@mkalmes.net](mailto:mkalmes@mkalmes.net)** Ich freue mich auf Ihre Mail.
 
 [podcast]: http://www.protokollcast.de
