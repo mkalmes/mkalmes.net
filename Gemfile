@@ -13,6 +13,7 @@ gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-gh-pages', '~> 0.3.0'
+gem 'middleman-google-analytics', '~> 2.1'
 
 gem 'bitters', '~> 1.2.0'
 gem 'bourbon', '~> 4.2.6'
