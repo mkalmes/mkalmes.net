@@ -18,6 +18,10 @@ page '/*.txt', layout: false
 
 # General configuration
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-42435342-1' # Replace with your property ID.
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
