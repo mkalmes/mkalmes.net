@@ -79,8 +79,32 @@ section {
       }
     }
 
-    li { list-style-type: disc; }
+    li {
+      list-style-type: disc;
+      margin-left: 1.5em;
+    }
 }
+
+  &.nrsng {
+    aside {
+      @include span-columns(6);
+      @include media($mobile) {
+        @include span-columns(4);
+      }
+    }
+
+    article {
+      @include span-columns(6);
+      @include media($mobile) {
+        @include span-columns(4);
+      }
+    }
+
+    li {
+      list-style-type: disc;
+      margin-left: 1.5em;
+    }
+  }
 
     &.prefooter {
         @include pad(2.5em 0em);
