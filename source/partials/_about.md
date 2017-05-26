@@ -1,4 +1,4 @@
-## Ich bin Marc Kalmes: Freiberuflicher iOS Entwickler und Podcaster.
+## Ich bin Marc Kalmes: iOS Entwickler und Podcaster.
 
 Seit 2009 entwickele ich Software für iOS. Nach meinem Studium zum Diplom-Informatiker (FH) habe ich 3 Jahre Erfahrung mit Kundenprojekten und mehr als 6 Jahre Erfahrung als iOS Entwickler gesammelt. In dieser Zeit habe ich sowohl mit großen Marken als auch mit kleinen Unternehmen zusammengearbeitet.
 
